@@ -1,0 +1,50 @@
+.header-container {
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    margin-top: 5%; /* Adjust the top margin as needed */
+}
+
+.studies-container {
+    margin-left: 40%; /* Adjust the top margin as needed */
+    margin-bottom: 40px;
+}
+
+.emma-hogstrand-image{
+    width: 15%;
+    margin-right: 100px;
+
+}
+
+/* Emma Hogstrand */
+h1 { 
+    font-family:'Arial';
+    color: #333333a4;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Full stack developer */
+h2{
+    font-family:'Arial';
+    color: #000000e9;
+    font-size: 3rem;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Studier */
+li{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.form {
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.847);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
