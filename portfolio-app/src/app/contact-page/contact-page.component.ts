@@ -13,7 +13,7 @@ export class ContactPageComponent {
   ) {}
 
   homePage(){
-    this.router.navigate(['/home']);
+    this.router.navigate(['']);
   }
 
 

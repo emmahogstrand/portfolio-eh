@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
+import { ProjectsPageComponent } from './projects-page/projects-page.component';
+import { LostInTranslationPageComponent } from './lost-in-translation-page/lost-in-translation-page.component';
+import { PokemonApiPageComponent } from './pokemon-api-page/pokemon-api-page.component';
 
 
 @NgModule({
@@ -12,6 +15,9 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
     AppComponent,
     HomePageComponent,
     ContactPageComponent,
+    ProjectsPageComponent,
+    LostInTranslationPageComponent,
+    PokemonApiPageComponent,
   ],
   imports: [
     BrowserModule,

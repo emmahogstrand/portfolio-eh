@@ -16,6 +16,12 @@ export class HomePageComponent {
   this.router.navigate(['/contact']);
 
 }
+
+  projectsPage(){
+  this.router.navigate(['/projects']);
+
+}
+
 }
 
 
