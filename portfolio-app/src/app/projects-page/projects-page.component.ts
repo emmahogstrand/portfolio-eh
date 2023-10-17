@@ -20,8 +20,11 @@ export class ProjectsPageComponent {
     this.router.navigate(['/pokemonApi']);
   }
 
+  memoryGamePage(){
+    this.router.navigate(['/memoryGame']);
+  }
+
   homePage(){
     this.router.navigate(['']);
-
   }
 }

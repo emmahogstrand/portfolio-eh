@@ -7,19 +7,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .box1{
     width: 60%;
     border-radius: 20px;
-    margin-right: 100px;
-}
-
-.box2{
-    width: 60%;
-    border-radius: 20px;
-    margin-left: 200px;
+    padding: 10px;
 }
 
 .header-container{

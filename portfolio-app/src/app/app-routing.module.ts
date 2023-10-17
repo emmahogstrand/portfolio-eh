@@ -5,6 +5,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { LostInTranslationPageComponent } from './lost-in-translation-page/lost-in-translation-page.component';
 import { PokemonApiPageComponent } from './pokemon-api-page/pokemon-api-page.component';
+import { MemoryGamePageComponent } from './memory-game-page/memory-game-page.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,12 @@ const routes: Routes = [
   path: 'pokemonApi',
   component: PokemonApiPageComponent,
 },
+
+{
+  path: 'memoryGame',
+  component: MemoryGamePageComponent,
+},
+
 ];
 
 @NgModule({
